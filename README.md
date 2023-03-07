@@ -43,6 +43,23 @@ curl -X POST -H "content-type: application/json" --data "[[5.9, 3, 5.1, 1.8]]" h
 
 - Note that you should use "", instead of ''
 
+### Building a Bento 🍱
+
+- Generate ```bentofile.yaml```
+
+```yaml
+service: "service:svc"  # Same as the argument passed to `bentoml serve`
+labels:
+   owner: bentoml-team
+   stage: dev
+include:
+- "*.py"  # A pattern for matching which files to include in the bento
+python:
+   packages:  # Additional pip packages required by the service
+   - scikit-learn
+   - pandas
+```
+
 ## Reference
 
 ### BentoML
