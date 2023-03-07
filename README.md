@@ -1,4 +1,4 @@
-# BentoML-test
+# BentoML-practice
 
 ## Requirements
 - python >= 3.7
