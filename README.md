@@ -30,6 +30,7 @@
 ### BentoML
 - https://engineering.linecorp.com/ko/blog/mlops-bentoml-1
 - https://zzsza.github.io/mlops/2021/04/18/bentoml-basic/
+- https://velog.io/@perfitt/BentoML-%EC%82%BD%EC%A7%88%EA%B8%B0
 
 ### Github deploy key
 - https://stackoverflow.com/questions/11656134/github-deploy-keys-how-do-i-authorize-more-than-one-repository-for-a-single-mac
