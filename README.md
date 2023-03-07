@@ -1,5 +1,9 @@
 # BentoML-test
 
+## Requirements
+- python >= 3.7
+- bentoml==1.0.15
+- pip install scikit-learn pandas
 
 ## 기본 개념
 
