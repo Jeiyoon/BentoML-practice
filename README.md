@@ -28,13 +28,13 @@
 ### Serving
 
 ```bash
-bentoml serve IrisClassifier:latest
+bentoml serve service:svc --reload
 ```
 
 ### Prediction Request
 
 ```bash
-curl -i --header "Content-Type: application/json" --request POST --data "[[5.1, 3.5, 1.4, 0.2]]" localhost:8898/predict
+curl -X POST -H "content-type: application/json" --data "[[5.9, 3, 5.1, 1.8]]" http://127.0.0.1:8898/classify
 ```
 
 - Note that you should use "", instead of ''
