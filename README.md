@@ -14,15 +14,15 @@
   
 ### 사용법
 
-1) 모델 학습
-2) Prediction Service Class 생성
+1. 모델 학습
+2. Prediction Service Class 생성
   - BentoML에서 제공하는 Artifact를 사용해 생성
   - 서빙 로직 코드가 저장된 인퍼런스 API와 모델이 정의되어야함
-3) Prediction Service에 학습한 모델 저장
+3. Prediction Service에 학습한 모델 저장
   - 별도로 BENTOML_HOME을 설정하지 않으면 다음 경로에 저장됨: ~/bentoml/repository/{service_name}/{service_version}
-4) Serving (Local)
-5) Prediction Request (Inference Job 등, Local)
-6) 모델 API 서버 컨테이너화
+4. Serving (Local)
+5. Prediction Request (Inference Job 등, Local)
+6. 모델 API 서버 컨테이너화
   - 컨테이너를 클라우드 서비스에 배포
 
 ### Serving
