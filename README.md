@@ -62,6 +62,7 @@ python:
 
 ```bash
 bentoml build
+bentoml serve iris_classifier:latest --production
 ```
 
 
