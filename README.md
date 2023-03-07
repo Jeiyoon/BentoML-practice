@@ -14,8 +14,8 @@
   
 2. 사용법
 
-1) 모델 학습
-2) Prediction Service Class 생성
+  1) 모델 학습
+  2) Prediction Service Class 생성
   - BentoML에서 제공하는 Artifact를 사용해 생성
   - 서빙 로직 코드가 저장된 인퍼런스 API와 모델이 정의되어야함
 3) Prediction Service에 학습한 모델 저장
