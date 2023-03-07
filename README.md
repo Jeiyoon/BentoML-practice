@@ -60,6 +60,11 @@ python:
    - pandas
 ```
 
+```bash
+bentoml build
+```
+
+
 ## Reference
 
 ### BentoML
