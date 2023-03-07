@@ -25,6 +25,18 @@
 6) 모델 API 서버 컨테이너화
   - 컨테이너를 클라우드 서비스에 배포
 
+3. Serving
+
+```bash
+bentoml serve IrisClassifier:latest
+```
+
+4. Prediction Request
+
+```bash
+curl -i --header "Content-Type: application/json" --request POST --data "[[5.1, 3.5, 1.4, 0.2]]" localhost:8898/predict
+```
+
 ## Reference
 
 ### BentoML
