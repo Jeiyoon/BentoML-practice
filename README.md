@@ -42,6 +42,7 @@ curl -i --header "Content-Type: application/json" --request POST --data "[[5.1, 
 ## Reference
 
 ### BentoML
+- https://docs.bentoml.org/en/latest/tutorial.html
 - https://engineering.linecorp.com/ko/blog/mlops-bentoml-1
 - https://zzsza.github.io/mlops/2021/04/18/bentoml-basic/
 - https://velog.io/@perfitt/BentoML-%EC%82%BD%EC%A7%88%EA%B8%B0
