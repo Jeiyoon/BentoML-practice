@@ -37,6 +37,8 @@ bentoml serve IrisClassifier:latest
 curl -i --header "Content-Type: application/json" --request POST --data "[[5.1, 3.5, 1.4, 0.2]]" localhost:8898/predict
 ```
 
+- Note that you should use "", instead of ''
+
 ## Reference
 
 ### BentoML
