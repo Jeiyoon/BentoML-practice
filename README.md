@@ -78,6 +78,7 @@ bentoml serve iris_classifier:latest --production
 
 ### ChatGPT
 - https://platform.openai.com/docs/quickstart
+- https://platform.openai.com/docs/tutorials/web-qa-embeddings
 - 
 
 ### Github deploy
